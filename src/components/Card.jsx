@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className="card">
       <img
-        src="public/img/illustration-hero.svg"
+        src="/img/illustration-hero.svg"
         alt="Illustraion"
         className="w-full md:h-60"
       />
