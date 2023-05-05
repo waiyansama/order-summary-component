@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import font "Red Hat Dispaly" */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/* background image svg */
+body {
+    @apply bg-secondary bg-pattern-mobile bg-no-repeat bg-top md:bg-pattern-desktop bg-contain 
+}
+
+/* order component card */
+.card {
+    @apply mx-auto mt-20 w-11/12 pb-8  min-h-568 rounded-3xl overflow-hidden bg-white font-rhd text-center drop-shadow-xl md:w-450 md:h-700 md:pb-10
+}
+
+/* order button */
+.button {
+    @apply block w-10/12 bg-accent rounded-xl h-12 text-white mx-auto font-bold  drop-shadow-xl mt-7 md:mt-10
+}
+
+.plan-container {
+    @apply bg-secondary w-10/12 mx-auto rounded-xl h-20 flex items-center justify-evenly mt-7 md:mt-8
+}
