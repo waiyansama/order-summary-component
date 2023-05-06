@@ -21,8 +21,8 @@ export default {
         700: "43.75rem",
       },
       backgroundImage: {
-        "pattern-mobile": "url(public/img/pattern-background-mobile.svg)",
-        "pattern-desktop": "url(public/img/pattern-background-desktop.svg)",
+        "pattern-mobile": "url(/img/pattern-background-mobile.svg)",
+        "pattern-desktop": "url(/img/pattern-background-desktop.svg)",
       },
     },
   },

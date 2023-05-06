@@ -8,12 +8,14 @@
 
 /* background image svg */
 body {
-    @apply bg-secondary bg-pattern-mobile bg-no-repeat bg-top md:bg-pattern-desktop bg-contain 
+    @apply bg-secondary bg-pattern-mobile bg-no-repeat md:bg-pattern-desktop bg-contain;
 }
+
+
 
 /* order component card */
 .card {
-    @apply mx-auto mt-20 w-11/12 pb-8  min-h-568 rounded-3xl overflow-hidden bg-white font-rhd text-center drop-shadow-xl md:w-450 md:h-700 md:pb-10
+    @apply mx-auto mt-20 w-11/12 pb-8  min-h-568 rounded-3xl overflow-hidden bg-white font-rhd text-center drop-shadow-xl md:w-450 md:h-700 md:pb-10 flex-shrink-0  
 }
 
 /* order button */

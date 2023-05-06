@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="text-sm text-center font-sans">
+    <footer className="text-sm text-center font-sans mt-20">
       Challenge by {""}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
